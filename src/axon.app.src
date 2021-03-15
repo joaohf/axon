@@ -5,7 +5,9 @@
   {mod, {'axon_app', []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    sasl,
+    crypto
    ]},
   {env,[]},
   {modules, []},
